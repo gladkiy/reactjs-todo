@@ -1,0 +1,25 @@
+.container {
+    width: 350px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+input[readonly],
+input[disabled] {
+    background-color: #fff !important;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+i.fas {
+    color: #28a745;
+}
